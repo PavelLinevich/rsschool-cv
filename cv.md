@@ -21,3 +21,15 @@ Rolling Scopes School plans to build a solid foundation of knowledge and practic
 * HTML----------- 5/10
 * CSS------------ 5/10
 * JS------------- 2/10
+
+***
+
+### Education and courses:
+1. I learn Front-End Development in **RSSchool**! JS/FE Pre-School 2022Q4
+5. [code.mu](https://code.mu/)
+
+***
+
+### Languages:
+* **Russian** - _NATIVE SPEAKER_
+* **English** - _B1-INTERMEDIATE_
