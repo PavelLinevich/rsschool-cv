@@ -1,3 +1,128 @@
-body {
-  width: 1000px;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #e6e2d4;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid #24292f;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.header {
+  background-color: #24292f;
+  padding: 1px;
+  font-size: 30px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #a9a9a9;
+}
+
+.section {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #24292f;
+  border-radius: 10px;
+  background-color: #f6f8fa;
+  display: flex;
+  font-size: 1.5em;
+}
+
+.photo-profile {
+  width: 300px;
+  border: 3px solid #24292f;
+  border-radius: 10px;
+}
+
+.profile-data {
+  margin: 50px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+#skills {
+  width: 50%;
+}
+
+#education {
+  width: 50%;
+}
+
+#skills,
+#education,
+#summary,
+#code,
+#projects,
+#contacts {
+  display: block;
+}
+
+.pre-code {
+  white-space: pre;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-link,
+.projects-link {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+}
+
+.contacts-link:hover,
+.projects-link:hover {
+  color: #006400;
+}
+
+.footer {
+  background-color: #24292f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+footer a,
+footer p {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .github-icon {
+  margin-right: 10px;
+}
+
+.my-github {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
