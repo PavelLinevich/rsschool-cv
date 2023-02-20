@@ -1,1 +1,1 @@
-[rsschool-cv](https://pavelgith.github.io/rsschool-cv/cv)
+[plants](https://pavelgith.github.plants/)
