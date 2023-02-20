@@ -2,4 +2,4 @@
 
 [Pavel Linevich CV  - markdown](https://pavelgith.github.io/rsschool-cv/cv)
 
-[Plants](https://pavelgith.github.plants/)
+[Plants](https://pavelgith.github.io/plants/)
