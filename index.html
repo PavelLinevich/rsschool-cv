@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/smailik.ico">
+</head>
+<body class="container">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section" id="profile">
+            <div class="profile-photo">
+                <img class="photo-profile" src="assets/images/photo-profile.png" alt="photo-profile">
+            </div>
+            <div class="profile-data">
+                <h1>PAVEL LINEVICH</h1>
+                <p>Frontend Developer</p>
+            </div>
+        </section>
+        <section class="section" id="summary">
+            <h2>Summary</h2>
+            <p>I am a beginner frontend developer. Thanks to Rolling Scopes School plans to build a solid foundation of
+                knowledge and practical skills that will allow me to become a sought-after specialist.</p>
+        </section>
+        <section class="section">
+            <div id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>Languages
+                        <ul>
+                            <li>Russian - native speaker</li>
+                            <li>English - A2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="education">
+                <h2>Education</h2>
+                <p>Belarusian State Agricultural Academy</p>
+                <p>Amelioration and Construction Faculty</p>
+                <p>Years: 2005 - 2010</p>
+                <p>Specialization: Civil Engineer</p>
+            </div>
+        </section>
+        <section class="section" id="code">
+            <h2>Code</h2>
+            <p>Task: Make a function that will take a string as a parameter and capitalize the first letter of each word
+                of this string.</p>
+            <pre class="pre-code">
+                <code>
+                function func(str) {
+                    let arr = str.split(' ');
+                    let newArr = [];
+                    for (let elem of arr) {
+                        elem = elem[0].toUpperCase() + elem.slice(1);
+                        newArr.push(elem);
+                    }
+                    return newArr.join(' ');;
+                }
+                console.log(func('one two tree four five'));
+                Console: One Two Tree Four Five
+                </code>
+            </pre>
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <a class="projects-link" href="https://github.com/PavelGitH/code.mu.git" target="_blank">Solving educational tasks on the site: <b>code.mu</b></a>
+        </section>
+        <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <ul class="contacts-list">
+                <li class="contacts-item">
+                    <img src="./assets/icons/phone.svg" alt="phone-icon" width="30" height="30">
+                    <a class="contacts-link" href="tel:+375295555555">+375(29)555&#8209;55&#8209;55</a>
+                </li>
+                <li class="contacts-item">
+                    <img src="./assets/icons/email.svg" alt="email-icon" width="30" height="30">
+                    <a class="contacts-link" href="mailto:linevich.p.l@gmail.com">linevich.p.l@gmail.com</a>
+                </li>
+                <li class="contacts-item">
+                    <img src="assets/icons/linkedin.svg" alt="linkedin-icon" width="30" height="30">
+                    <a class="contacts-link" href="https://www.linkedin.com/in/pavel-linevich-0b09a5216/"
+                        target="_blank">LinkedIn</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <a class="my-github" href="https://github.com/PavelGitH" target="_blank">
+            <img class="github-icon" src="assets/icons/github.svg" alt="GitHub Icon" width="35" height="35">
+            <p>My GitHub</p>
+        </a>
+        <p class="year">© 2022</p>
+        <a class="rs-school" href="https://rs.school/js/" target="_blank">
+            <img src="assets/icons/rsschool.svg" alt="RS.SCHOOL Icon" width="105" height="35">
+        </a>
+    </footer>
+</body>
+</html>
